@@ -1,0 +1,83 @@
+body{
+
+    background-color: aqua;
+    font-family: Rubik, Arial;
+}
+
+#title{
+    height: 2%;
+    text-align: center;
+
+}
+
+#description{
+    background-color: ghostwhite;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 18%;
+    height: 100%;
+
+}
+
+
+#survey-form{
+    background-color: ghostwhite;
+   margin-left: 15%;
+   margin-right: 15%;
+   padding-left: 18%;
+   height: 100%;
+   
+}
+
+#blue-col{
+
+    background-color: ghostwhite;
+    margin-left: 15%;
+   margin-right: 15%;
+   padding-left: auto;
+   padding-right: auto;
+   height: 100%;
+}
+
+#name{
+    margin-right: 10%;
+
+}
+
+
+#email{
+
+    margin-right: 10.6%;
+}
+
+#number{
+    margin-right: 13%;
+
+}
+
+
+#name-label{
+    
+}
+
+#email-label{
+    
+}
+
+
+#number-label{
+    
+}
+
+
+#dropdown{
+
+
+
+}
+
+.submit{
+
+    background-color: lightblue;
+    color: aliceblue;
+    }

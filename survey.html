@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./surveystyle.css"  />
+
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <div id="blue-col">
+            <br>
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+                <form id="survey-form">
+                    <div>
+                        <label for="name" id="name">* Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required >
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email" id="email">* Email: </label>
+                        <input type="text" name="email" id="email" placeholder="Enter your email" pattern="[^ @]*@[^ @]*" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="age" id="number">* Age: </label>
+                        <input type="number" name="age" id="age" placeholder="Age" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="role" id="dropdown">Which option best describes your current role?</label>
+                        <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="job">Full time Job</option>
+                        <option value="learner">Full time Learner</option>
+                        <option value="not">Prefer not to say</option>
+                        <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
+                        <label for="definitely">Definitely</label>
+                        <input type="radio" id="definitely" name="definitely" value="Definitely">
+                        <br>
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="definitely" value="Maybe">
+                        <br>
+                        <label for="sure">Not sure</label>
+                        <input type="radio" id="sure" name="definitely" value="Not sure">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="rol">What do you like most in FCC:</label>
+                        <select id="rol" name="rol">
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open">Open Source</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Things that should be improved in the future <br>
+                                (Check all that apply):</p>
+                        <label for="front">Front-end Projects</label>
+                        <input id="front" name="front" type="checkbox" value="Front-end Projects">
+                        <br>
+                        <label for="back">Back-end Projects</label>
+                        <input id="back" name="back" type="checkbox" value="Back-end Projects">
+                        <br>
+                        <label for="data">Data Visualization</label>
+                        <input id="data" name="data" type="checkbox" value="Data Visualization">
+                        <br>
+                        <label for="Challenges">Challenges</label>
+                        <input id="Challenges" name="Challenges" type="checkbox" value="Challenges">
+                        <br>
+                        <label for="Community">Open Source Community</label>
+                        <input id="Community" name="Community" type="checkbox" value="Open Source Community">
+                        <br>
+                        <label for="rooms">Gitter help rooms</label>
+                        <input id="rooms" name="rooms" type="checkbox" value="Gitter help rooms">
+                        <br>
+                        <label for="Videos">Videos</label>
+                        <input id="Videos" name="Videos" type="checkbox" value="Videos">
+                        <br>
+                        <label for="Meetups">City Meetups</label>
+                        <input id="Meetups" name="Meetups" type="checkbox" value="City Meetups">
+                        <br>
+                        <label for="Wiki">Wiki</label>
+                        <input id="Wiki" name="Wiki" type="checkbox" value="Wiki">
+                        <br>
+                        <label for="Forum">Forum</label>
+                        <input id="Forum" name="Forum" type="checkbox" value="Forum">
+                        <br>
+                        <label for="Courses">Additional Courses</label>
+                        <input id="Courses" name="Courses" type="checkbox" value="Additional Courses">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <label for="blog">Any Comments or Suggestions?</label>
+                        <textarea id="blog" name="blog" rows="5" cols="30" placeholder= "Enter your comment here"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="submit" type="submit" value="Submit">
+                    </div>                                 
+                </form>
+        </div>
+
+    </body>
+</html>
